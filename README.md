@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+👋 Hello, I'm Akash Negi — Frontend Developer
+I'm a Frontend Developer with over 4 years of experience, focused on building responsive, user-centric web applications using React, Next.js, TypeScript, and modern JavaScript frameworks. With a strong foundation in computer science and a passion for creating intuitive UIs, I turn complex problems into simple, elegant solutions.
 
-## Getting Started
+🔧 What I Do
+💼 Software Development Engineer at Strategywerks (2022 – Present)
+At Strategywerks, I’ve led development on several high-impact products:
 
-First, run the development server:
+Ottoleads – Built robust property filters and integrated secure authentication using Amazon Cognito and Stripe for billing.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bonzai – Created a collaborative document editor with Tiptap and WebSockets, complete with contextual AI chatbot support.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Paraphrase Tool – Engineered an AI-driven writing assistant with a seamless subscription model.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Hilton Chat Bot – Focused on accessibility (A11Y) and scalable state management using React Context API.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clinicianos – Developed a healthcare platform with AI-powered voice-to-text capabilities using Next.js.
 
-## Learn More
+WrenchRater – Created a location-based car service platform with Google Maps integration and advanced booking logic.
 
-To learn more about Next.js, take a look at the following resources:
+💻 Associate Software Engineer at TCS (2020 – 2022)
+Contributed to digitizing the procurement process for Tata Steel using ASP.NET MVC, ReactJS, and RESTful APIs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 Tech Stack
+Frontend:
+ReactJS, Next.js, Angular, TypeScript, JavaScript, HTML5, Redux Toolkit, Tiptap
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Other Tools:
+Git, Jira, ZOHO, Twilio, Shopify
 
-## Deploy on Vercel
+Concepts & Practices:
+State management, REST APIs, Accessibility (A11Y), Real-time WebSockets, Subscription models
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🏆 Awards & Certifications
+🥇 Rookie Rockstar – Strategywerks (2022)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🥈 Silent Soldier – Strategywerks (2023)
+
+🥉 Reliability Rock – Strategywerks (2024)
+
+📜 HackerRank Problem Solving (Basic)
+
+🎓 Udemy: React – The Complete Guide
+
+🧠 Always Learning
+I'm a firm believer in continuous learning. From experimenting with AI integrations to diving into new frameworks, I stay on top of evolving trends to deliver modern, scalable solutions.
+
+📫 Let’s Connect
+📧 [`akh0997@gmail.com`](akh0997@gmail.com)
+
+💼 [`LinkedIn`](https://www.linkedin.com/in/akash-negi-699415131/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+📄 [`HackerRank Certificate`](https://www.hackerrank.com/certificates/5eb03924ca42)

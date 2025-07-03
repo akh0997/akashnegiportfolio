@@ -40,5 +40,3 @@ I'm a firm believer in continuous learning. From experimenting with AI integrati
 📧 [`akh0997@gmail.com`](akh0997@gmail.com)
 
 💼 [`LinkedIn`](https://www.linkedin.com/in/akash-negi-699415131/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-
-📄 [`HackerRank Certificate`](https://www.hackerrank.com/certificates/5eb03924ca42)

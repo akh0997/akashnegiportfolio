@@ -1,0 +1,65 @@
+.canvas_div {
+  position: relative; // Not fixed!
+  width: 100%;
+  height: 100vh; // Full screen height
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  pointer-events: none; // So canvas can still capture mouse events
+}
+
+.centeredText {
+  pointer-events: auto; // Allow text interaction if needed
+  z-index: 2;
+  color: white;
+  text-align: center;
+  .intro {
+    font-size: 1.5rem;
+  }
+  .tech {
+    font-size: 3rem;
+    font-weight: bold;
+    span {
+      color: rgb(195, 62, 62);
+    }
+  }
+  span {
+    color: rgb(195, 62, 62);
+  }
+}
+
+.content {
+  padding: 2rem;
+  background-color: #fff;
+  color: #000;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  border: solid white 2px;
+  margin-left: 10px;
+  border-radius: 5px;
+}

@@ -21,15 +21,19 @@ export const useCanvasDotEffect = () => {
       }
 
       // Track mouse
-      document.body.addEventListener("mousemove", (e: any) => {
-        mouse.x = e.clientX;
-        mouse.y = e.clientY;
-      });
+      document
+        .getElementById("moving_dot_container")
+        ?.addEventListener("mousemove", (e: any) => {
+          mouse.x = e.clientX;
+          mouse.y = e.clientY;
+        });
 
-      document.body.addEventListener("mouseleave", () => {
-        mouse.x = null;
-        mouse.y = null;
-      });
+      document
+        .getElementById("moving_dot_container")
+        ?.addEventListener("mouseleave", () => {
+          mouse.x = null;
+          mouse.y = null;
+        });
 
       function connectDotsToMouse() {
         if (mouse.x === null || mouse.y === null) return;

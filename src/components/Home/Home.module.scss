@@ -65,14 +65,18 @@
 }
 
 .about_container {
+  scroll-margin-top: 43px;
   width: 100vw;
   display: flex;
-
+  @media (max-width: 1000px) {
+    display: block;
+  }
   .about_content {
     width: 100%;
     font-size: 20;
     padding: 20px;
     text-align: justify;
+    color: #fff;
     h1 {
       width: max-content;
       margin: 0 auto;
@@ -84,52 +88,140 @@
       font-size: 30px;
       font-weight: 800;
     }
-    .experience_parent_container {
-      margin-top: 20px;
+    p {
+      margin-top: 10px;
+      strong {
+        color: rgb(195, 62, 62);
+      }
+    }
+  }
+}
+
+.experience_parent_container {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 80px;
+  display: flex;
+  scroll-margin-top: 43px;
+  @media (max-width: 720px) {
+    display: block;
+  }
+  .experience_content {
+    width: 55%;
+
+    @media (max-width: 720px) {
       width: 100%;
-      .experience_content {
-        margin-top: 20px;
+    }
+    h1 {
+      width: max-content;
+      font-size: 50px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .experience_content_section {
+      margin-top: 20px;
+      margin-left: 60px;
 
-        h3 {
-          font-size: 1.75rem; // larger heading
-          font-weight: bold;
-          font-family: "Playfair Display", serif; // example fancy font
-          font-style: italic;
-          margin-bottom: 0.25rem;
-          color: #ffffff; // adjust for dark/light theme
-        }
+      h3 {
+        font-size: 1.75rem; // larger heading
+        font-weight: bold;
+        font-family: "Playfair Display", serif; // example fancy font
+        font-style: italic;
+        margin-bottom: 0.25rem;
+        color: #ffffff; // adjust for dark/light theme
+      }
 
-        .designation {
-          font-style: italic;
-          font-family: "Playfair Display", serif;
+      .designation {
+        font-style: italic;
+        font-family: "Playfair Display", serif;
+        font-size: 1rem;
+        color: #cccccc;
+        display: block;
+        margin-top: 0.25rem;
+      }
+
+      .experienceDates {
+        font-style: italic;
+        font-family: "Playfair Display", serif;
+        font-size: 0.95rem;
+        color: #999999;
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+
+        li {
           font-size: 1rem;
-          color: #cccccc;
-          display: block;
-          margin-top: 0.25rem;
+          margin-bottom: 0.5rem;
+          color: #e0e0e0; // soft white on dark bg
         }
 
-        .experienceDates {
-          font-style: italic;
-          font-family: "Playfair Display", serif;
-          font-size: 0.95rem;
-          color: #999999;
-          display: block;
-          margin-bottom: 1rem;
+        li::marker {
+          color: #999999; // subtle bullet color
+          font-size: 0.6rem; // small circle
+        }
+      }
+    }
+  }
+
+  .timelineContainer {
+    padding: 20px;
+    color: #fff;
+    width: 40%;
+    margin-right: 40px;
+    @media (max-width: 720px) {
+      width: 100%;
+    }
+    .timelineTitle {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .timeline {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 30px;
+      border-left: 2px solid rgba(255, 255, 255, 0.2);
+
+      li {
+        position: relative;
+        margin-bottom: 70px;
+        padding-left: 30px;
+
+        .dot {
+          position: absolute;
+          left: -12px;
+          top: 0;
+          font-size: 16px;
+          background: #121212;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
-        ul {
-          list-style-type: disc;
-          padding-left: 1.5rem;
-
-          li {
-            font-size: 1rem;
-            margin-bottom: 0.5rem;
-            color: #e0e0e0; // soft white on dark bg
+        .content {
+          background: rgba(255, 255, 255, 0.05);
+          padding: 10px 15px;
+          border-radius: 8px;
+          color: #fff;
+          strong {
+            font-size: 16px;
+            font-weight: 600;
           }
 
-          li::marker {
-            color: #999999; // subtle bullet color
-            font-size: 0.6rem; // small circle
+          p {
+            font-size: 14px;
+            margin-top: 4px;
+            opacity: 0.8;
           }
         }
       }
@@ -139,7 +231,7 @@
 
 .animate_parent {
   width: 100%;
-  height: 100vh;
+  height: 520px;
   padding: 20px;
   .techstack_container {
     height: 200px;
@@ -156,10 +248,11 @@
       display: flex;
       p {
         margin: auto 5px;
+        color: #fff;
       }
     }
     .static_content {
-      translate: 180px 175px;
+      translate: 170px 195px;
       position: absolute;
       font-weight: 700;
       font-size: 20;
@@ -169,6 +262,7 @@
       width: max-content;
       border: solid #fff 1px;
       margin-left: 30px;
+      color: #fff;
     }
   }
 }

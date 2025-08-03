@@ -13,6 +13,7 @@ import JavaScriptIcon from "../SvgIcons/Javascript";
 import TypeScriptIcon from "../SvgIcons/TypeScriptIcon";
 import Divider from "../Divider/Divider";
 import Navbar from "../Navbar/Navbar";
+import Projects from "../Projects/Projects";
 const Home = () => {
   const [typingText1, typingText2] = useTypingEffect();
   useCanvasDotEffect();
@@ -204,6 +205,8 @@ const Home = () => {
           </ul>
         </div>
       </div>
+
+      <Projects />
     </div>
   );
 };

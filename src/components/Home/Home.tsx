@@ -164,7 +164,7 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.timelineContainer}>
-          <h3 className={styles.timelineTitle}>Career Timeline</h3>
+          {/* <h3 className={styles.timelineTitle}>Career Timeline</h3> */}
           <ul className={styles.timeline}>
             <li>
               <span className={styles.dot}>🎓</span>
